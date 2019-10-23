@@ -152,7 +152,7 @@ services {
     destination_service_name = "web"
     destination_service_id = "web"
     upstreams {
-      destination_type = "service" 
+      destination_type = "service"
       destination_name = "db"
       local_bind_port = 1234
     }
@@ -171,7 +171,7 @@ services {
     destination_service_name = "web"
     destination_service_id = "web"
     upstreams {
-      destination_type = "service" 
+      destination_type = "service"
       destination_name = "db"
       local_bind_port = 1234
       datacenter = "dc1"
@@ -201,7 +201,7 @@ services {
     destination_service_name = "web"
     destination_service_id = "web"
     upstreams {
-      destination_type = "prepared_query" 
+      destination_type = "prepared_query"
       destination_name = "handle"
       local_bind_port = 1234
     }
